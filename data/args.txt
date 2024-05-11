@@ -1,0 +1,24 @@
+lr: 0.1
+momentum: 0.9
+iterations: 100
+export_interval: 1000
+D1: 5000
+D2: 5000
+max_points: -1
+save_path: data
+pc: data/botella1_aug.xyz
+batch_size: 1
+bn: False
+stn: False
+name: 
+init_var: -1.0
+sampling_mode: random
+p1: 0.9
+p2: 0.09999999999999998
+k: 20
+percentile: -1.0
+ang_wt: 0.1
+force_normal_estimation: False
+kmeans: False
+mse: False
+curvature_cache: 
